@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Panther Hotel</title>
+    <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel = "stylesheet">
+    <style>
+        body {
+            background-color: #f5f0e1; /* light brown */
+            color: #4b3621; /* dark brown text */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            margin-bottom: 50px;
+        }
+
+        .btn-custom {
+            background-color: #4b3621; 
+            color: #f5f0e1;
+            border: none;
+            padding: 12px 30px;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        /*changes button color when hovering to lighter brown*/
+        .btn-custom:hover {
+            background-color: #6b4f31; 
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Panther Hotel</h1>
+    <div class = "d-flex flex-column gap-3">
+        <a href = "/reserve" class = "btn btn-custom">Book a Room</a>
+        <a href = "/manager" class = "btn btn-custom">Manager</a>
+    </div>
+</body>
+</html>
