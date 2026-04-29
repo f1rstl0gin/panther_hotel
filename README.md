@@ -3,7 +3,7 @@ Simple web-based reservation manager that allows users to both submit a form to 
 
 ## Description
 
-This project uses Python (Flask) for the backend templating and HTML/CSS (with Bootstrap) for the frontend. The project allows user to navigate from home page to a rservation booking page where they can submit a reservation. All reservations are kept in a database and are accessible through a manage button on the home page in table format.
+This project uses Python (Flask) for the back end templating and HTML/CSS (with Bootstrap) for the front end. The project allows user to navigate from home page to a rservation booking page where they can submit a reservation. All reservations are kept in a database and are accessible through a manage button on the home page in table format.
 
 ## Features
 
