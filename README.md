@@ -1,5 +1,5 @@
 ## Panther Hotel
-Simple web-based reservation manager that allows users to both create new reservations and view current/past reservations at the hotel
+Simple web-based reservation manager that allows users to both submit a form to book at the hotel and view all current/past reservations.
 
 ## Description
 
@@ -10,6 +10,7 @@ This project uses Python (Flask) for the backend templating and HTML/CSS (with B
 - View a list of all reservations in a table
 - Used bootstrap for a responsive layout
 - Ability to fill out a reservation form and book through the website
+- Clear confirmation page showing all booking information
 - Easy navigation back to home page
 
 ## Installation
