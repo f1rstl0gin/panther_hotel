@@ -52,9 +52,16 @@
     <h1>Panther Hotel Room Reservation</h1>
     <!--Creates a form with options for user to fill out or select from-->
     <form method = "post">
+        <label>Name</label>
         <input class = "form-control" name = "name" placeholder = "Name" required>
+
+        <label>Check-in Date</label>
         <input class = "form-control" type = "date" name = "checkin_date" required>
+
+        <label>Check-out Date</label>
         <input class = "form-control" type = "date" name = "checkout_date" required>
+
+        <label>Room Type</label>
         <select class = "form-control" name = "room_type">
             <option>Single</option>
             <option>Double</option>
